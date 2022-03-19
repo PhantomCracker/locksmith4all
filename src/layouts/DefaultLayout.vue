@@ -27,31 +27,32 @@
     <!--    End Navbar-->
     <router-view></router-view>
     <!--    Start Footer -->
-<!--    <div class="footer">-->
-<!--      <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">-->
-<!--        <div class="container">-->
-<!--          <div class="row">-->
-<!--            <div class="col-sm-12 col-md-6 text-start">-->
-<!--              <div class="pr-xl-4">-->
-<!--                <a class="brand" href="#"><img class="brand-logo-light" src="@/assets/logo.png" alt="logo"></a>-->
-<!--                <p>We provide the best quality locksmith services with multiple teams located near you, our services include business locksmith services, emergency locksmith services, 24-hour locksmith services, with us you’ll receive trusted locksmith services in the most urgent of manner.</p>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="d-md-none"><hr/></div>-->
-<!--            <div class="col-sm-12 col-md-6 align-self-center text-center">-->
-<!--              <ul class="contact-list">-->
-<!--                <li><span><font-awesome-icon icon="map-marked-alt"></font-awesome-icon></span>Address: Uk Local Services Ltd 89 Brent Street</li>-->
-<!--                <li><span><font-awesome-icon icon="envelope"></font-awesome-icon></span>Email: <a href="mailto:#">office@uklocallocksmith.co.uk</a></li>-->
-<!--                <li><span><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>Phone: <a href="tel:03333446467">03333446467</a></li>-->
-<!--              </ul>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="row pt-3">-->
-<!--            <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span> UK Local Locksmith</span><span> - </span><span>All Rights Reserved.</span></p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </footer>-->
-<!--    </div>-->
+    <div class="footer">
+      <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 text-start">
+              <div class="pr-xl-4">
+                <a class="brand" href="#"><img class="brand-logo-light" src="@/assets/logo.png" alt="logo"></a>
+                <p>We provide the best quality locksmith services with multiple teams located near you, our services include business locksmith services, emergency locksmith services, 24-hour locksmith services, with us you’ll receive trusted locksmith services in the most urgent of manner.</p>
+              </div>
+            </div>
+            <div class="d-md-none"><hr/></div>
+            <div class="col-sm-12 col-md-6 align-self-center text-end">
+              <ul class="contact-list">
+                <li>ADDRESS: <span>Uk Local Services Ltd 89 Brent Street</span></li>
+                <li>EMAIL: <a href="mailto:#"><span>office@uklocallocksmith.co.uk</span></a></li>
+                <li>PHONE: <a href="tel:03333446467"><span>03333446467</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="row pt-3">
+            <p class="rights"><span>©  </span><span class="copyright-year">2022</span><span> </span><span> Locksmith4all </span><span> - </span><span>All Rights Reserved.</span></p>
+          </div>
+        </div>
+      </footer>
+    </div>
     <!--    End Footer -->
 
 <!--    <a href="https://api.whatsapp.com/send?phone=+447760595941" class="float" target="_blank">-->
@@ -70,7 +71,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .container {
+  .navigation {
     ul {
       line-height: 1em;
       li {
@@ -82,6 +83,21 @@ export default {
           font-weight: 600;
         }
       }
+    }
+  }
+  .footer {
+    a, li {
+      color: #fff;
+      text-decoration: none;
+      span {
+        color: rgba(200,200,200,0.8);
+      }
+    }
+    p {
+      color: rgba(200,200,200,0.8);
+    }
+    hr {
+      color: #ffffff;
     }
   }
 </style>
