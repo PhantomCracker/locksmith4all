@@ -40,17 +40,17 @@ export default {
   min-height: 280px;
   border: none;
   border-radius: 0;
+  background-image: url('../../../public/images/service2.jpg');
+  background-size: cover;
   &:before {
     content: "";
     background-color: black;
-    background-image: url('../../../public/images/service2.jpg');
-    background-size: cover;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
+    opacity: 0.7;
   }
   &:hover {
     transform: scale(1.05);
