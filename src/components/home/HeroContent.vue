@@ -33,6 +33,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 500px;
+  border-bottom: 10px solid #000000;
 
   @media (max-width: 700px) {
     max-height: 100%;
