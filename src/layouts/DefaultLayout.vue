@@ -3,7 +3,7 @@
     <!--    Start Navbar -->
     <b-navbar toggleable="lg" class="navigation pt-3 pb-3">
       <router-link :to="{ path: '/' }" class="px-5 mx-5 navbar-brand">
-        <img src="../assets/logo.png" alt="logo" width="200px">
+        <img src="../assets/logo.png" alt="logo" width="250">
       </router-link>
       <div class="container">
         <div class="navbar-collapse mx-5 px-5 d-flex justify-content-end">
@@ -108,7 +108,10 @@ export default {
   // WhatsApp button
   @media screen and (max-width: 700px)  {
     *{padding:0;margin:0;}
-
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
     body{
       font-family:Verdana, Geneva, sans-serif;
       font-size:18px;
