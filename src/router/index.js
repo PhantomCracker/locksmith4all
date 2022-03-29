@@ -32,7 +32,7 @@ export  default new Router({
                },
                {
                    path: '/locksmith/:city',
-                   name: CitiesPage,
+                   name: 'CitiesPage',
                    component: CitiesPage
                }
            ]
