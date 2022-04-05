@@ -4,7 +4,7 @@
       <div class="row pt-4">
         <div class="col-lg-6 col-sm-12 d-sm-none d-md-block hero-man pt-3"></div>
         <div class="col-lg-6 col-sm-12 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
-          <h1 class="text-white text-start">Emergency <span class="my-yellow">Locksmith</span> service available 24/7</h1>
+          <h1 class="text-white text-start"><span class="my-yellow">Locksmith</span> services available 24/7</h1>
           <ul class="with-border bg-black">
             <li class="text-white text-start pl-2 pt-3">Service on spot withing 25 minutes</li>
             <li class="text-white text-start pl-2">Local service from £49</li>

@@ -1,10 +1,10 @@
 <template>
   <div class="city">
-    <div class="container hero">
+    <div class="container hero" style="max-width: unset">
       <div class="row pt-4">
         <div class="col-lg-6 col-sm-12 d-sm-none d-md-block hero-man pt-3"></div>
         <div class="col-lg-6 col-sm-12 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
-          <h1 class="text-white text-start">Emergency <span class="my-yellow">Locksmith</span> service in {{ city }}</h1>
+          <h1 class="text-white text-start"><span class="my-yellow">Locksmith</span> in {{ city }}</h1>
           <ul class="with-border bg-black">
             <li class="text-white text-start pl-2 pt-3">Service on spot withing 25 minutes</li>
             <li class="text-white text-start pl-2">Local service from £49</li>
@@ -16,8 +16,10 @@
         </div>
       </div>
     </div>
-    <InfoSection />
+    <ServiceCard />
     <OurServices />
+    <InfoSection />
+    <OurHeroes />
     <TestimonialsContent />
   </div>
 </template>
@@ -26,9 +28,11 @@
 import InfoSection from "@/components/home/InfoSection";
 import TestimonialsContent from "@/components/home/TestimonialsContent";
 import OurServices from "@/components/home/OurServices";
+import ServiceCard from "@/components/home/ServicesCard";
+import OurHeroes from "@/components/home/OurHeroes";
 export default {
   name: "CityContent",
-  components: {OurServices, TestimonialsContent, InfoSection},
+  components: {OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection},
   data() {
     let city = this.$route.params.city
     return {

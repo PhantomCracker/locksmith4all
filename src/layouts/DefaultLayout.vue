@@ -1,29 +1,41 @@
 <template>
   <div>
     <!--    Start Navbar -->
-    <b-navbar toggleable="lg" class="navigation pt-3 pb-3">
-      <router-link :to="{ path: '/' }" class="px-5 mx-5 navbar-brand">
-        <img src="../assets/logo.png" alt="logo" width="250">
-      </router-link>
-      <div class="container">
-        <div class="navbar-collapse mx-5 px-5 d-flex justify-content-end">
-          <ul class="navbar-nav h4">
-            <li class="nav-item">
-              <router-link :to="{ path: '/' }" class="nav-link ps-3 pe-3">Home</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link :to="{ path: '/about-us' }" class="nav-link ps-3 pe-3">About us</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link :to="{ path: '/locksmith-near-me' }" class="nav-link ps-3 pe-3 fw-bold">Locksmith near me</router-link>
-            </li>
-            <li class="nav-item">
-              <a href="tel:03333446467" class="nav-link phone ps-3 pe-3"><span style="margin-right: 10px"><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>03333446467</a>
-            </li>
-          </ul>
+    <div class="container" style="max-width: unset">
+      <div class="row">
+        <div class="navigation">
+          <div class="navbar-collapse mx-5 px-5 d-flex justify-content-center">
+            <ul class="navbar-nav h4 flex-row">
+              <li class="nav-item">
+                <router-link :to="{ path: '/' }" class="nav-link ps-3 pe-3">Home</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link :to="{ path: '/about-us' }" class="nav-link ps-3 pe-3">About us</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link :to="{ path: '/locksmith-near-me' }" class="nav-link ps-3 pe-3 fw-bold">Locksmith near me</router-link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </b-navbar>
+      <div class="row">
+        <b-navbar toggleable="lg" class="navigation pt-3 pb-3">
+          <router-link :to="{ path: '/' }" class="px-5 mx-5 navbar-brand">
+            <img src="../assets/logo.png" alt="logo" width="250">
+          </router-link>
+          <div class="container">
+            <div class="navbar-collapse mx-5 px-5 d-flex justify-content-end">
+              <ul class="navbar-nav h4">
+                <li class="nav-item hero-nav-phone">
+                  <a href="tel:03333446467" class="nav-link phone ps-3 pe-3"><span style="margin-right: 10px"><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>03333446467 <br/> <span class="ms-3">Call now </span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </b-navbar>
+      </div>
+    </div>
     <!--    End Navbar-->
     <router-view></router-view>
     <!--    Start Footer -->
@@ -72,17 +84,30 @@ export default {
 
 <style lang="scss" scoped>
   .navigation {
+    padding: 0;
+    margin: 0;
+    background: $ourBlack;
     ul {
       line-height: 1em;
       li {
         font-size: 16px;
         text-transform: uppercase;
         a {
-          color: #000;
+          color: #fff;
           padding: 0 25px;
           font-weight: 600;
         }
       }
+    }
+    .navbar-nav {
+      .nav-link {
+        color: #FFFFFF;
+      }
+    }
+    .hero-nav-phone {
+      background: $ourRed;
+      border-radius: 10px;
+      padding: 15px;
     }
   }
   .footer {
@@ -133,8 +158,8 @@ export default {
 
     .fa-whatsapp {
       fill: white;
-      width: 70px;
-      height: 70px;
+      width: 60px;
+      height: 60px;
       background: #25D366;
       border-radius: 50px;
       padding: 7px;
@@ -155,8 +180,8 @@ export default {
     }
     .fa-phone {
       fill: white;
-      width: 70px;
-      height: 70px;
+      width: 50px;
+      height: 50px;
       background: #25D366;
       border-radius: 50px;
       padding: 12px;

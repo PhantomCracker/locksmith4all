@@ -2,9 +2,9 @@
   <div class="home">
     <HeroContent />
     <ServiceCard />
+    <OurServices />
     <InfoSection />
     <OurHeroes />
-    <OurServices />
     <TestimonialsContent />
   </div>
 </template>
