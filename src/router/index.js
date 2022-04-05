@@ -10,8 +10,13 @@ import CitiesPage from "@/pages/CitiesPage";
 Vue.use(Router);
 
 export  default new Router({
-   routes: [
-       {
+    mode: 'history',
+    routes: [
+        {
+            path: '*',
+            component: HomePage
+        },
+        {
            path: '/',
            component: DefaultLayout,
            children: [
