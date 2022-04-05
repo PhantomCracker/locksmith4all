@@ -115,8 +115,6 @@ export default {
       border-radius: 10px;
       padding: 15px;
     }
-    .nav-item.badge {
-    }
   }
   .footer {
     a, li {
