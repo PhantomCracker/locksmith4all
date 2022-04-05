@@ -27,8 +27,14 @@
           <div class="container">
             <div class="navbar-collapse mx-5 px-5 d-flex justify-content-end">
               <ul class="navbar-nav h4">
-                <li class="nav-item hero-nav-phone">
-                  <a href="tel:03333446467" class="nav-link phone ps-3 pe-3"><span style="margin-right: 10px"><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>03333446467 <br/> <span class="ms-3">Call now </span></a>
+                <li class="nav-item badge">
+                  <img src="../../public/images/services/247-service-badge.png" alt="badge1" width="100px"/>
+                </li>
+                <li class="nav-item badge me-lg-5">
+                  <img src="../../public/images/services/toprated.png" alt="badge1" width="100px"/>
+                </li>
+                <li class="nav-item hero-nav-phone align-self-center">
+                  <a href="tel:03333446467" class="nav-link phone ps-3 pe-3"><span style="margin-right: 10px"><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>03333446467 <br/></a>
                 </li>
               </ul>
             </div>
@@ -108,6 +114,8 @@ export default {
       background: $ourRed;
       border-radius: 10px;
       padding: 15px;
+    }
+    .nav-item.badge {
     }
   }
   .footer {
