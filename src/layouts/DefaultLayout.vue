@@ -3,7 +3,7 @@
     <!--    Start Navbar -->
     <div class="container" style="max-width: unset">
       <div class="row">
-        <div class="navigation">
+        <div class="row navigation">
           <div class="navbar-collapse mx-5 px-5 d-flex justify-content-center">
             <ul class="navbar-nav h4 flex-row">
               <li class="nav-item">
@@ -19,27 +19,45 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <b-navbar toggleable="lg" class="navigation pt-3 pb-3">
-          <router-link :to="{ path: '/' }" class="px-5 mx-5 navbar-brand">
-            <img src="../assets/logo.png" alt="logo" width="250">
-          </router-link>
-          <div class="container">
-            <div class="navbar-collapse mx-5 px-5 d-flex justify-content-end">
-              <ul class="navbar-nav h4">
-                <li class="nav-item badge">
-                  <img src="../../public/images/services/247-service-badge.png" alt="badge1" width="100px"/>
-                </li>
-                <li class="nav-item badge me-lg-5">
-                  <img src="../../public/images/services/toprated.png" alt="badge1" width="100px"/>
-                </li>
-                <li class="nav-item hero-nav-phone align-self-center">
-                  <a href="tel:03333446467" class="nav-link phone ps-3 pe-3"><span style="margin-right: 10px"><font-awesome-icon icon="phone-alt"></font-awesome-icon></span>03333446467 <br/></a>
-                </li>
-              </ul>
+      <div class="row navigation">
+        <div class="col-12 col-lg-6">
+          <div class="navigation pt-3 pb-3">
+            <router-link :to="{ path: '/' }" class="px-5 mx-5 navbar-brand">
+              <img src="../assets/logo.png" alt="logo" width="250">
+            </router-link>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col-6 col-lg-2">
+              <div class="nav-item badge">
+                <img src="../../public/images/services/247-service-badge.png" alt="badge1" width="100px"/>
+              </div>
+            </div>
+            <div class="col-6 col-lg-2">
+              <div class="nav-item badge me-lg-5">
+                <img src="../../public/images/services/toprated.png" alt="badge1" width="100px"/>
+              </div>
+            </div>
+            <div class="col-6 col-lg-2">
+              <div class="nav-item badge me-lg-5">
+                <img src="../../public/images/services/warranty.png" alt="badge1" width="100px"/>
+              </div>
+            </div>
+            <div class="col-6 col-lg-2">
+              <div class="nav-item badge me-lg-5">
+                <img src="../../public/images/services/warranty.png" alt="badge1" width="100px"/>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 pt-3 pt-lg-0">
+              <div class="navbar-collapse px-5 d-flex justify-content-end navbar-nav pt-3 pt-lg-0">
+                <div class="nav-item hero-nav-phone align-self-center">
+                  <a href="tel:03333446467" class="nav-link phone ps-3 pe-3">Call us now! <br/></a>
+                </div>
+              </div>
             </div>
           </div>
-        </b-navbar>
+        </div>
       </div>
     </div>
     <!--    End Navbar-->
@@ -106,6 +124,7 @@ export default {
       }
     }
     .navbar-nav {
+      flex-direction: row;
       .nav-link {
         color: #FFFFFF;
       }
