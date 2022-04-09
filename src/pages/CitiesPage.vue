@@ -1,6 +1,6 @@
 <template>
   <div class="cities">
-    <CityContent city="Bristol"/>
+    <CityContent/>
   </div>
 </template>
 

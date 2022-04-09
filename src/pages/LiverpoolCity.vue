@@ -4,7 +4,7 @@
       <div class="row pt-4">
         <div class="col-lg-6 col-sm-12 d-sm-none d-md-block hero-man pt-3"></div>
         <div class="col-lg-6 col-sm-12 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
-          <h1 class="text-white text-start"><span class="my-yellow">Locksmith</span> in {{ city }}</h1>
+          <h1 class="text-white text-start"><span class="my-yellow">Locksmith</span> in Liverpool</h1>
           <ul class="with-border bg-black">
             <li class="text-white text-start pl-2 pt-3">Service on spot withing 25 minutes</li>
             <li class="text-white text-start pl-2">Local service from £49</li>
@@ -25,20 +25,21 @@
 </template>
 
 <script>
-import InfoSection from "@/components/home/InfoSection";
-import TestimonialsContent from "@/components/home/TestimonialsContent";
-import OurServices from "@/components/home/OurServices";
-import ServiceCard from "@/components/home/ServicesCard";
 import OurHeroes from "@/components/home/OurHeroes";
+import ServiceCard from "@/components/home/ServicesCard";
+import OurServices from "@/components/home/OurServices";
+import TestimonialsContent from "@/components/home/TestimonialsContent";
+import InfoSection from "@/components/home/InfoSection";
+
 export default {
-  name: "CityContent",
+  name: "LiverpoolCity",
   components: {OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection}
 }
 </script>
 
 <style scoped lang="scss">
 .hero {
-  background-image: url("../../../public/images/hero-background.jpg");
+  background-image: url("../../public/images/hero-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 500px;
@@ -48,7 +49,7 @@ export default {
     max-height: 100%;
   }
   .hero-man {
-    background-image: url("../../../public/images/header-man.png");
+    background-image: url("../../public/images/header-man.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
