@@ -1,9 +1,9 @@
 <template>
   <div class="hero">
     <div class="container">
-      <div class="row pt-4">
-        <div class="col-lg-6 col-sm-12 d-sm-none d-md-block hero-man pt-3"></div>
-        <div class="col-lg-6 col-sm-12 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
+      <div class="row pt-4 d-flex flex-column-reverse flex-lg-row">
+        <div class="col-12 col-lg-6 d-flex hero-man pt-3"></div>
+        <div class="col-12 col-lg-6 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
           <h1 class="text-white text-start"><span class="my-yellow">Locksmith</span> services available 24/7</h1>
           <ul class="with-border bg-black">
             <li class="text-white text-start pl-2 pt-3">Service on spot withing 25 minutes</li>
@@ -43,8 +43,9 @@ export default {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    min-height: 300px;
     @media (max-width: 700px) {
-      display: none;
+      border-top: 10px solid black;
     }
   }
   li {
