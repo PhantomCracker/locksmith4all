@@ -5,7 +5,7 @@
       <div class="row">
         <div class="row navigation">
           <div class="navbar-collapse d-flex justify-content-center">
-            <ul class="navbar-nav h4 flex-row">
+            <ul class="navbar-nav h4 flex-row pt-3 pb-3">
               <li class="nav-item">
                 <router-link :to="{ path: '/' }" class="nav-link ps-3 pe-3">Home</router-link>
               </li>
