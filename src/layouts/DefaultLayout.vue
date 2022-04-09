@@ -166,7 +166,7 @@ export default {
       object-fit: contain;
     }
     .nav-item img {
-      width: unset;
+      width: 70%;
     }
     body{
       font-family:Verdana, Geneva, sans-serif;
