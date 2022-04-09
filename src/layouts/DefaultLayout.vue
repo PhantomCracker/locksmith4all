@@ -31,22 +31,22 @@
           <div class="row">
             <div class="col-6 col-lg-2">
               <div class="nav-item badge">
-                <img src="../../public/images/services/247-service-badge.png" alt="badge1" width="100px"/>
+                <img src="../../public/images/services/247-service-badge.png" alt="badge1" width="70px"/>
               </div>
             </div>
             <div class="col-6 col-lg-2">
               <div class="nav-item badge me-lg-5">
-                <img src="../../public/images/services/toprated.png" alt="badge1" width="100px"/>
+                <img src="../../public/images/services/toprated.png" alt="badge1" width="70px"/>
               </div>
             </div>
             <div class="col-6 col-lg-2 pt-4 pt-lg-0">
               <div class="nav-item badge me-lg-5">
-                <img src="../../public/images/services/warranty.png" alt="badge1" width="100px"/>
+                <img src="../../public/images/services/warranty.png" alt="badge1" width="70px"/>
               </div>
             </div>
             <div class="col-6 col-lg-2 pt-4 pt-lg-0">
               <div class="nav-item badge me-lg-5">
-                <img src="../../public/images/services/warranty.png" alt="badge1" width="100px"/>
+                <img src="../../public/images/services/warranty.png" alt="badge1" width="70px"/>
               </div>
             </div>
             <div class="col-12 col-lg-4 pt-lg-0 align-self-center">
