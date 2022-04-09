@@ -1,10 +1,10 @@
 <template>
   <div>
     <!--    Start Navbar -->
-    <div class="container" style="max-width: unset">
+    <div class="container-fluid m-0">
       <div class="row">
         <div class="row navigation">
-          <div class="navbar-collapse mx-5 px-5 d-flex justify-content-center">
+          <div class="navbar-collapse d-flex justify-content-center">
             <ul class="navbar-nav h4 flex-row">
               <li class="nav-item">
                 <router-link :to="{ path: '/' }" class="nav-link ps-3 pe-3">Home</router-link>
@@ -19,11 +19,11 @@
           </div>
         </div>
       </div>
-      <div class="row navigation">
+      <div class="row navigation pt-3 pb-3">
         <div class="col-12 col-lg-6">
           <div class="navigation pt-3 pb-3">
-            <router-link :to="{ path: '/' }" class="px-5 mx-5 navbar-brand">
-              <img src="../assets/logo.png" alt="logo" width="250">
+            <router-link :to="{ path: '/' }" class="navbar-brand">
+              <img src="../assets/logo.png" class="logo" alt="logo">
             </router-link>
           </div>
         </div>
@@ -39,18 +39,18 @@
                 <img src="../../public/images/services/toprated.png" alt="badge1" width="100px"/>
               </div>
             </div>
-            <div class="col-6 col-lg-2">
+            <div class="col-6 col-lg-2 pt-4 pt-lg-0">
               <div class="nav-item badge me-lg-5">
                 <img src="../../public/images/services/warranty.png" alt="badge1" width="100px"/>
               </div>
             </div>
-            <div class="col-6 col-lg-2">
+            <div class="col-6 col-lg-2 pt-4 pt-lg-0">
               <div class="nav-item badge me-lg-5">
                 <img src="../../public/images/services/warranty.png" alt="badge1" width="100px"/>
               </div>
             </div>
-            <div class="col-12 col-lg-4 pt-3 pt-lg-0">
-              <div class="navbar-collapse px-5 d-flex justify-content-end navbar-nav pt-3 pt-lg-0">
+            <div class="col-12 col-lg-4 pt-lg-0 align-self-center">
+              <div class="navbar-collapse px-5 d-flex justify-content-center navbar-nav pt-3 pt-lg-0">
                 <div class="nav-item hero-nav-phone align-self-center">
                   <a href="tel:03333446467" class="nav-link phone ps-3 pe-3">Call us now! <br/></a>
                 </div>
@@ -63,8 +63,8 @@
     <!--    End Navbar-->
     <router-view></router-view>
     <!--    Start Footer -->
-    <div class="footer">
-      <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+    <div class="footer mt-3">
+      <footer class="section footer-classic context-dark bg-image pt-4" style="background: #2d3246;">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6 text-start">
@@ -107,6 +107,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .logo {
+    width: 250px;
+  }
   .navigation {
     padding: 0;
     margin: 0;
@@ -132,7 +135,7 @@ export default {
     .hero-nav-phone {
       background: $ourRed;
       border-radius: 10px;
-      padding: 15px;
+      padding: 3px 12px;
     }
   }
   .footer {
