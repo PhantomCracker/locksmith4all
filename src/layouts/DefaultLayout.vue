@@ -1,8 +1,8 @@
 <template>
   <div>
     <!--    Start Navbar -->
-    <div class="container-fluid m-0">
-      <div class="row">
+    <div class="container-fluid m-0 p-0">
+      <div class="row ms-0 me-0">
         <div class="row navigation">
           <div class="navbar-collapse d-flex justify-content-center">
             <ul class="navbar-nav h4 flex-row pt-3 pb-3">
@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-      <div class="row navigation pt-3 pb-3 crazy-row">
+      <div class="row navigation pt-3 pb-3">
         <div class="col-12 col-lg-6">
           <div class="navigation pt-3 pb-3">
             <router-link :to="{ path: '/' }" class="navbar-brand">
