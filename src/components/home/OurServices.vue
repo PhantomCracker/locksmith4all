@@ -8,15 +8,15 @@
               <h5 class="card-title">EMERGENCY LOCKSMITH</h5>
               <div class="card-text">
                 <ul>
-                  <li>Lock rekeys</li>
+                  <li>24/7 Emergency Service</li>
                   <li>Lock repairs</li>
-                  <li>Master key systems</li>
+                  <li>Safe Opening</li>
                   <li>Card access & keypad locking</li>
                   <li>Security lock systems</li>
                 </ul>
               </div>
               <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
-                <a class="text-white text-decoration-none" href="tel:03333446467"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+                <a class="text-white text-decoration-none" href="tel:03308187406"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
               </button>
             </div>
           </div>
@@ -24,10 +24,10 @@
         <div class="col-12 col-lg-3">
           <div class="card w-100">
             <div class="card-body">
-              <h5 class="card-title">RESIDENTIAL PRICES</h5>
+              <h5 class="card-title">LOCK CHANGE</h5>
               <div class="card-text">
                 <ul>
-                  <li>Lock rekeys</li>
+                  <li>Lock Replacement</li>
                   <li>Lock-Box Installation</li>
                   <li>Lock-Box Repair</li>
                   <li>Lock Repairs</li>
@@ -35,7 +35,7 @@
                 </ul>
               </div>
               <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
-                <a class="text-white text-decoration-none" href="tel:03333446467"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+                <a class="text-white text-decoration-none" href="tel:03308187406"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
               </button>
             </div>
           </div>
@@ -43,18 +43,18 @@
         <div class="col-12 col-lg-3">
           <div class="card w-100">
             <div class="card-body">
-              <h5 class="card-title">AUTOMOTIVE PRICES</h5>
+              <h5 class="card-title">BURGLARY REPAIR</h5>
               <div class="card-text">
                 <ul>
-                  <li>Car Lockout</li>
-                  <li>Car Re-Keys</li>
-                  <li>Ignition Key Programming</li>
-                  <li>Transponder Keys Programming</li>
-                  <li>Security Lock Systems</li>
+                  <li>Post Break-In Lock Service</li>
+                  <li>Security Upgrade</li>
+                  <li>Window and Patio Door Locks</li>
+                  <li>Insurance Approved Locks</li>
+                  <li>24/7 Emergency Service</li>
                 </ul>
               </div>
               <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
-                <a class="text-white text-decoration-none" href="tel:03333446467"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+                <a class="text-white text-decoration-none" href="tel:03308187406"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
               </button>
             </div>
           </div>
@@ -65,15 +65,15 @@
               <h5 class="card-title">COMMERCIAL PRICES</h5>
               <div class="card-text">
                 <ul>
-                  <li>Lock rekeys</li>
-                  <li>Lock repairs</li>
-                  <li>Master key systems</li>
-                  <li>Card access & keypad locking</li>
-                  <li>Security lock systems</li>
+                  <li>Lock Replacement</li>
+                  <li>24/7 Emergency Service</li>
+                  <li>Window and Patio Door Locks</li>
+                  <li>UPVC Door Lock Repair / Replace</li>
+                  <li>24/7 Emergency Service</li>
                 </ul>
               </div>
               <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
-                <a class="text-white text-decoration-none" href="tel:03333446467"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+                <a class="text-white text-decoration-none" href="tel:03308187406"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
               </button>
             </div>
           </div>

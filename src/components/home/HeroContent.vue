@@ -10,8 +10,8 @@
             <li class="text-white text-start pl-2">Local service from £49</li>
             <li class="text-white text-start pl-2 pb-3">Locks from £25</li>
           </ul>
-          <button class="btn btn-primary w-50 my-primary-btn mt-3">
-            <a class="text-white text-decoration-none" href="tel:03333446467"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+          <button class="btn btn-primary w-100 my-primary-btn mt-3">
+            <a class="text-white text-decoration-none" href="tel:03308187406">At your location within 25 minutes</a>
           </button>
         </div>
       </div>
