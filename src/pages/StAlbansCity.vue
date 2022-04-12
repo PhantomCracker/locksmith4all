@@ -35,7 +35,18 @@ import BadgesContent from "@/components/home/BadgesContent";
 
 export default {
   name: "StAlbansCity",
-  components: {BadgesContent, OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection}
+  components: {BadgesContent, OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection},
+  metaInfo: {
+    title: 'Locksmith in St Albans',
+    meta: [
+      {
+        vmid: 'description',
+        name: 'description',
+        content: '24/7 emergency locksmith services in St Albans. Locksmith4All also provide a range of services and supplies designed to improve the security of your home or business'
+      }
+    ]
+  }
+
 }
 </script>
 

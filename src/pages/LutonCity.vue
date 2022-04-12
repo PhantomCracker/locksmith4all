@@ -35,7 +35,18 @@ import BadgesContent from "@/components/home/BadgesContent";
 
 export default {
   name: "LutonCity",
-  components: {BadgesContent, OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection}
+  components: {BadgesContent, OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection},
+  metaInfo: {
+    title: 'Locksmith in Luton',
+    meta: [
+      {
+        vmid: 'description',
+        name: 'description',
+        content: '24/7 emergency locksmith services in Luton. Locksmith4All also provide a range of services and supplies designed to improve the security of your home or business'
+      }
+    ]
+  }
+
 }
 </script>
 

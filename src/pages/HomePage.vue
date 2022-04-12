@@ -22,12 +22,12 @@ export default {
   name: "HomePage",
   components: {BadgesContent, TestimonialsContent, OurServices, OurHeroes, InfoSection, ServiceCard, HeroContent},
   metaInfo: {
-    title: 'test title',
+    title: 'Locksmith4All',
     meta: [
       {
         vmid: 'description',
         name: 'description',
-        content: 'test description'
+        content: '24/7 emergency locksmith services. Locksmith4All also provide a range of services and supplies designed to improve the security of your home or business'
       }
     ]
   }

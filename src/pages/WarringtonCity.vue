@@ -1,17 +1,17 @@
 <template>
-  <div className="city">
-    <div className="container hero" style="max-width: unset">
-      <div className="row pt-4">
-        <div className="col-lg-6 col-sm-12 d-sm-none d-md-block hero-man pt-3"></div>
-        <div className="col-lg-6 col-sm-12 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
-          <h1 className="text-white text-start"><span className="my-yellow">Locksmith</span> in Warrington</h1>
-          <ul className="with-border bg-black">
-            <li className="text-white text-start pl-2 pt-3">Service on spot withing 25 minutes</li>
-            <li className="text-white text-start pl-2">Local service from £49</li>
-            <li className="text-white text-start pl-2 pb-3">Locks from £25</li>
+  <div class="city">
+    <div class="container hero" style="max-width: unset">
+      <div class="row pt-4">
+        <div class="col-lg-6 col-sm-12 d-sm-none d-md-block hero-man pt-3"></div>
+        <div class="col-lg-6 col-sm-12 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
+          <h1 class="text-white text-start"><span class="my-yellow">Locksmith</span> in Warrington</h1>
+          <ul class="with-border bg-black">
+            <li class="text-white text-start pl-2 pt-3">Service on spot withing 25 minutes</li>
+            <li class="text-white text-start pl-2">Local service from £49</li>
+            <li class="text-white text-start pl-2 pb-3">Locks from £25</li>
           </ul>
-          <button className="btn btn-primary w-50 my-primary-btn mt-3">
-            <a className="text-white text-decoration-none" href="tel:03308187406">
+          <button class="btn btn-primary w-50 my-primary-btn mt-3">
+            <a class="text-white text-decoration-none" href="tel:03308187406">
               <font-awesome-icon icon="phone-alt" style="margin-right: 10px"/>
               Call now</a>
           </button>
@@ -37,7 +37,18 @@ import BadgesContent from "@/components/home/BadgesContent";
 
 export default {
   name: "WarringtonCity",
-  components: {BadgesContent, OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection}
+  components: {BadgesContent, OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection},
+  metaInfo: {
+    title: 'Locksmith in Warrington',
+    meta: [
+      {
+        vmid: 'description',
+        name: 'description',
+        content: '24/7 emergency locksmith services in Warrington. Locksmith4All also provide a range of services and supplies designed to improve the security of your home or business'
+      }
+    ]
+  }
+
 }
 </script>
 

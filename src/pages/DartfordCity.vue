@@ -33,7 +33,18 @@ import InfoSection from "@/components/home/InfoSection";
 
 export default {
   name: "DartfordCity",
-  components: {OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection}
+  components: {OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection},
+  metaInfo: {
+    title: 'Locksmith in Dartford',
+    meta: [
+      {
+        vmid: 'description',
+        name: 'description',
+        content: '24/7 emergency locksmith services in Dartford. Locksmith4All also provide a range of services and supplies designed to improve the security of your home or business'
+      }
+    ]
+  }
+
 }
 </script>
 
