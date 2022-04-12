@@ -1,7 +1,7 @@
 <template>
-  <div class="city">
-    <div class="container hero" style="max-width: unset">
-      <div class="row pt-4">
+  <div class="city hero">
+    <div class="container">
+      <div class="row pt-4 d-flex flex-column-reverse flex-lg-row">
         <div class="col-lg-6 col-sm-12 d-sm-none d-md-block hero-man pt-3"></div>
         <div class="col-lg-6 col-sm-12 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
           <h1 class="text-white text-start"><span class="my-yellow">Locksmith</span> in Sheffield</h1>
@@ -10,8 +10,8 @@
             <li class="text-white text-start pl-2">Local service from £49</li>
             <li class="text-white text-start pl-2 pb-3">Locks from £25</li>
           </ul>
-          <button class="btn btn-primary w-50 my-primary-btn mt-3">
-            <a class="text-white text-decoration-none" href="tel:03308187406"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+          <button class="btn btn-primary w-100 my-primary-btn mt-3">
+            <a class="text-white text-decoration-none" href="tel:03308187406">At your location within 25 minutes</a>
           </button>
         </div>
       </div>
@@ -53,8 +53,9 @@ export default {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    min-height: 300px;
     @media (max-width: 700px) {
-      display: none;
+      border-top: 10px solid black;
     }
   }
   li {

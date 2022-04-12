@@ -56,8 +56,9 @@ export default {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    min-height: 300px;
     @media (max-width: 700px) {
-      display: none;
+      border-top: 10px solid black;
     }
   }
 
