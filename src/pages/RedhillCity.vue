@@ -18,6 +18,7 @@
         </div>
       </div>
     </div>
+    <BadgesContent />
     <ServiceCard/>
     <OurServices/>
     <InfoSection/>
@@ -32,10 +33,11 @@ import ServiceCard from "@/components/home/ServicesCard";
 import OurServices from "@/components/home/OurServices";
 import TestimonialsContent from "@/components/home/TestimonialsContent";
 import InfoSection from "@/components/home/InfoSection";
+import BadgesContent from "@/components/home/BadgesContent";
 
 export default {
   name: "RedhillCity",
-  components: {OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection}
+  components: {BadgesContent, OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection}
 }
 </script>
 

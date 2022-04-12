@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-      <div class="row navigation pt-3 pb-3">
+      <div class="row navigation pt-2 pb-2">
         <div class="col-12 col-lg-6">
           <div class="navigation pt-3 pb-3">
             <router-link :to="{ path: '/' }" class="navbar-brand">
@@ -27,24 +27,9 @@
             </router-link>
           </div>
         </div>
-        <div class="col-12 col-lg-6">
-          <div class="row">
-            <div class="col-4 col-lg-2">
-              <div class="nav-item badge">
-                <img src="../../public/images/services/247-service-badge.png" alt="badge1" width="100px"/>
-              </div>
-            </div>
-            <div class="col-4 col-lg-2">
-              <div class="nav-item badge me-lg-5">
-                <img src="../../public/images/services/toprated.png" alt="badge1" width="100px"/>
-              </div>
-            </div>
-            <div class="col-4 col-lg-2">
-              <div class="nav-item badge me-lg-5">
-                <img src="../../public/images/services/warranty.png" alt="badge1" width="100px"/>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 pt-lg-0 align-self-center">
+        <div class="col-12 col-lg-6 align-self-center">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6 pt-lg-0 align-self-center">
               <div class="navbar-collapse px-5 d-flex justify-content-center navbar-nav pt-3 pt-lg-0">
                 <div class="nav-item hero-nav-phone align-self-center">
                   <a href="tel:03308187406" class="nav-link phone ps-3 pe-3">Call us now! <br/></a>

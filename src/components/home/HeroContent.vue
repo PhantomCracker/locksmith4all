@@ -1,16 +1,16 @@
 <template>
   <div class="hero">
     <div class="container">
-      <div class="row pt-4 d-flex flex-column-reverse flex-lg-row">
-        <div class="col-12 col-lg-6 d-flex hero-man pt-3"></div>
-        <div class="col-12 col-lg-6 d-flex align-self-center flex-column mt-3 mt-md-0 pb-4">
+      <div class="row d-flex flex-column-reverse flex-lg-row">
+        <div class="col-12 col-lg-6 d-flex hero-man"></div>
+        <div class="col-12 col-lg-6 d-flex align-self-center flex-column mt-md-0 pb-3">
           <h1 class="text-white text-start"><span class="my-yellow">Locksmith</span> services available 24/7</h1>
           <ul class="with-border bg-black">
-            <li class="text-white text-start pl-2 pt-3">Service on spot withing 25 minutes</li>
+            <li class="text-white text-start pl-2 pt-2">Service on spot withing 25 minutes</li>
             <li class="text-white text-start pl-2">Local service from £49</li>
-            <li class="text-white text-start pl-2 pb-3">Locks from £25</li>
+            <li class="text-white text-start pl-2 pb-2">Locks from £25</li>
           </ul>
-          <button class="btn btn-primary w-100 my-primary-btn mt-3">
+          <button class="btn btn-primary w-100 my-primary-btn mt-1">
             <a class="text-white text-decoration-none" href="tel:03308187406">At your location within 25 minutes</a>
           </button>
         </div>
