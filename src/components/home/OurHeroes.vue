@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 pt-5 pb-4">
-          <h1 class="text-center pt-2 pb-2">Our awesome heroes</h1>
+          <h2 class="text-center pt-2 pb-2">Our awesome heroes</h2>
         </div>
       </div>
       <div class="row">
@@ -11,7 +11,7 @@
           <div class="heroes-services d-block d-md-flex">
             <div class="card p-3 w-100 ms-lg-3 mt-3 mt-lg-0" v-for="service in services" :key="service.id">
               <div class="card-body p-3">
-                <h3 class="card-title text-start pt-2"> <h1> {{ service.id + 1 }} </h1> {{ service.title }}</h3>
+                <h3 class="card-title text-start pt-2"> <h2> {{ service.id + 1 }} </h2> {{ service.title }}</h3>
                 <p class="card-text pt-5 text-start">{{ service.description }}</p>
               </div>
             </div>
