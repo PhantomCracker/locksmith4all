@@ -16,7 +16,7 @@
                 </ul>
               </div>
               <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
-                <a class="text-white text-decoration-none" href="tel:03308187406"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+                <a class="text-white text-decoration-none" href="tel:01173256595"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
               </button>
             </div>
           </div>
@@ -35,7 +35,7 @@
                 </ul>
               </div>
               <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
-                <a class="text-white text-decoration-none" href="tel:03308187406"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+                <a class="text-white text-decoration-none" href="tel:01173256595"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
               </button>
             </div>
           </div>
@@ -54,7 +54,7 @@
                 </ul>
               </div>
               <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
-                <a class="text-white text-decoration-none" href="tel:03308187406"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+                <a class="text-white text-decoration-none" href="tel:01173256595"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
               </button>
             </div>
           </div>
@@ -73,7 +73,7 @@
                 </ul>
               </div>
               <button class="btn btn-primary w-50 my-primary-btn mt-3 mb-4">
-                <a class="text-white text-decoration-none" href="tel:03308187406"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
+                <a class="text-white text-decoration-none" href="tel:01173256595"><font-awesome-icon icon="phone-alt" style="margin-right: 10px" />Call now</a>
               </button>
             </div>
           </div>
