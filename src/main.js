@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm';
+import VueMeta from 'vue-meta';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -12,6 +13,7 @@ library.add(faPhoneAlt, faLock, faKey, faDoorClosed, faTools, faMapMarkedAlt, fa
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.use(BootstrapVue);
+Vue.use(VueMeta);
 Vue.config.productionTip = false
 
 new Vue({

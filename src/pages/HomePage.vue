@@ -20,7 +20,17 @@ import TestimonialsContent from "@/components/home/TestimonialsContent";
 import BadgesContent from "@/components/home/BadgesContent";
 export default {
   name: "HomePage",
-  components: {BadgesContent, TestimonialsContent, OurServices, OurHeroes, InfoSection, ServiceCard, HeroContent}
+  components: {BadgesContent, TestimonialsContent, OurServices, OurHeroes, InfoSection, ServiceCard, HeroContent},
+  metaInfo: {
+    title: 'test title',
+    meta: [
+      {
+        vmid: 'description',
+        name: 'description',
+        content: 'test description'
+      }
+    ]
+  }
 }
 </script>
 
