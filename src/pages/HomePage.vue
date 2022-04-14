@@ -21,6 +21,11 @@ import BadgesContent from "@/components/home/BadgesContent";
 export default {
   name: "HomePage",
   components: {BadgesContent, TestimonialsContent, OurServices, OurHeroes, InfoSection, ServiceCard, HeroContent},
+  mounted() {
+    let whatConvertsScript = document.createElement('script')
+    whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/95446.js')
+    document.head.appendChild(whatConvertsScript)
+  },
   metaInfo: {
     title: 'Emergency Locksmith Service | LocalLocksmith4All',
     meta: [
