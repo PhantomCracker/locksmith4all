@@ -2,7 +2,7 @@
   <div class="testimonials">
     <vueper-slides
         class="no-shadow"
-        autoplay
+
         :arrows="false"
         :visible-slides="2"
         fixed-height="150px"
@@ -10,7 +10,7 @@
         :gap="3"
         :slide-ratio="1 / 4"
         :dragging-distance="200"
-        :breakpoints="{ 800: { visibleSlides: 2, slideMultiple: 2 } }"
+        :breakpoints="{ 800: { visibleSlides: 1, slideMultiple: 1 } }"
         style="background-size: auto; background-repeat: no-repeat;">
       <vueper-slide v-for="(slide, i) in slides" :key="i" :image="slide.image" />
     </vueper-slides>
@@ -52,6 +52,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.vueperslide {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 </style>
