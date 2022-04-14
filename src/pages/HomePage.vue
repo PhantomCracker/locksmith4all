@@ -22,7 +22,7 @@ export default {
   name: "HomePage",
   components: {BadgesContent, TestimonialsContent, OurServices, OurHeroes, InfoSection, ServiceCard, HeroContent},
   metaInfo: {
-    title: 'Locksmith4All',
+    title: 'Emergency Locksmith Service | LocalLocksmith4All',
     meta: [
       {
         vmid: 'description',
