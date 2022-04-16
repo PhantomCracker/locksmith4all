@@ -395,7 +395,12 @@ export  default new Router({
                    component: WatfordCity
                }
            ]
-       }
+        },
+        {
+            path: '*',
+            component: HomePage,
+            name: 'HomePage'
+        }
    ],
     scrollBehavior() {
         document.getElementById('app').scrollIntoView();
