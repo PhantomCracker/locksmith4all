@@ -394,13 +394,13 @@ export  default new Router({
                    path:'/Watford',
                    name: 'WatfordCity',
                    component: WatfordCity
+               },
+               {
+                   path: '(.*)*',
+                   component: NotFound,
+                   name: 'NotFound'
                }
            ]
-        },
-        {
-            path: '(.*)*',
-            component: NotFound,
-            name: 'NotFound'
         }
    ],
     scrollBehavior() {

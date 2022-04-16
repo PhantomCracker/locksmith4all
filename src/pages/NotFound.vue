@@ -1,10 +1,13 @@
 <template>
-  <div>test</div>
+  <div>Page not found</div>
 </template>
 
 <script>
 export default {
-  name: "NotFound"
+  name: "NotFound",
+  mounted() {
+    this.$router.push({ path: '/' })
+  }
 }
 </script>
 
