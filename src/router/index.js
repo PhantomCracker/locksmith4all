@@ -65,6 +65,7 @@ import WarringtonCity from "@/pages/WarringtonCity";
 import WolverhamptonCity from "@/pages/WolverhamptonCity";
 import WakefieldCity from "@/pages/WakefieldCity";
 import WatfordCity from "@/pages/WatfordCity";
+import NotFound from "@/pages/NotFound";
 // import CitiesPage from "@/pages/CitiesPage";
 
 Vue.use(Router);
@@ -397,9 +398,9 @@ export  default new Router({
            ]
         },
         {
-            path: '*',
-            component: HomePage,
-            name: 'HomePage'
+            path: '(.*)*',
+            component: NotFound,
+            name: 'NotFound'
         }
    ],
     scrollBehavior() {
