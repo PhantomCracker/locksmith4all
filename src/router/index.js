@@ -396,7 +396,7 @@ export  default new Router({
                    component: WatfordCity
                },
                {
-                   path: '([/]*.*)*',
+                   path: '(.*)*$',
                    component: NotFound,
                    name: 'NotFound'
                }
