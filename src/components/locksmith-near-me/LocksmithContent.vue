@@ -35,7 +35,7 @@
       </div>
       <div class="row pt-4 pb-5">
         <div class="col-12">
-          <img src="../../assets/logo.png" alt="main-logo" class="pb-5" />
+          <img src="../../assets/logo.png" alt="main-logo" class="pb-5 fix-image" />
           <h5 class="pb-4">We cover multiple areas in United Kingdom with professional locksmiths right near you: </h5>
           <div class="row">
             <div class="col-12 col-md-3">
@@ -261,6 +261,9 @@ ul {
   a {
     text-align: center;
   }
+}
+.fix-image {
+  width: 100%;
 }
 
 </style>
