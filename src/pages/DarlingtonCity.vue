@@ -34,6 +34,11 @@ import InfoSection from "@/components/home/InfoSection";
 export default {
   name: "DarlingtonCity",
   components: {OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection},
+  mounted() {
+    let whatConvertsScript = document.createElement('script')
+    whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/95446.js')
+    document.head.appendChild(whatConvertsScript)
+  },
   metaInfo: {
     title: 'Locksmith in Darlington',
     meta: [

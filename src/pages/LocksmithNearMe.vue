@@ -9,6 +9,11 @@ import LocksmithContent from "@/components/locksmith-near-me/LocksmithContent";
 export default {
   name: "LocksmithNearMe",
   components: {LocksmithContent},
+  mounted() {
+    let whatConvertsScript = document.createElement('script')
+    whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/95446.js')
+    document.head.appendChild(whatConvertsScript)
+  },
   metaInfo: {
     title: 'Locksmith4All - Locksmith cities',
     meta: [

@@ -11,6 +11,11 @@ import TestimonialsContent from "@/components/home/TestimonialsContent";
 export default {
   name: "AboutUs",
   components: {TestimonialsContent, InfoSection},
+  mounted() {
+    let whatConvertsScript = document.createElement('script')
+    whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/95446.js')
+    document.head.appendChild(whatConvertsScript)
+  },
   metaInfo: {
     title: 'Locksmith4All - About Us',
     meta: [

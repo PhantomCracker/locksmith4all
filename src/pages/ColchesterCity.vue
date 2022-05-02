@@ -36,6 +36,11 @@ import BadgesContent from "@/components/home/BadgesContent";
 export default {
   name: "ColchesterCity",
   components: {BadgesContent, OurHeroes, ServiceCard, OurServices, TestimonialsContent, InfoSection},
+  mounted() {
+    let whatConvertsScript = document.createElement('script')
+    whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/95446.js')
+    document.head.appendChild(whatConvertsScript)
+  },
   metaInfo: {
     title: 'Locksmith in Colchester',
     meta: [
