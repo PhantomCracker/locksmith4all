@@ -7,7 +7,7 @@
           <h1 class="text-white text-start"><span class="my-yellow">Locksmith</span> in Sheffield</h1>
           <ul class="with-border bg-black">
             <li class="text-white text-start pl-2 pt-3">Service on spot withing 25 minutes</li>
-            <li class="text-white text-start pl-2">Local service from £49</li>
+            <li class="text-white text-start pl-2">Local service from £39</li>
             <li class="text-white text-start pl-2 pb-3">Locks from £25</li>
           </ul>
           <button class="btn btn-primary w-100 my-primary-btn mt-3">
