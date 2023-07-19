@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 pt-5 pb-4">
-          <h2 class="text-center pt-2 pb-2">Our awesome heroes</h2>
+          <h2 class="text-center pt-2 pb-2" style="color: red">Our awesome heroes</h2>
         </div>
       </div>
       <div class="row">

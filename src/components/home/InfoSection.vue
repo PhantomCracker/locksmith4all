@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-6 col-12 ps-3">
           <!--          <h5 class="text-start">Make dreams come true   </h5>-->
-          <h2 class="text-start">The easiest way to turn tour home into a smart home</h2>
+          <h2 class="text-start">The easiest way to turn your home into a smart home</h2>
           <p class="text-start pt-3">At UK Local Locksmith we are proud to be able to offer our customers exceptionally diverse range of professional locksmith services. Our mission is multifold, we can provide you with 24/7 locksmith services and also provide a range of services and supplies designed to improve the security of your home or business.</p>
           <p class="text-start pt-3">Our sales and service team bring a lifetime of security experience to the table and can show you how best to protect your family, your home, and your business in today's growing crime. Our highly skilled locally based locksmiths can provide you with both commercial and residential locksmith services.</p>
         </div>
