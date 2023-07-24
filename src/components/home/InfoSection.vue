@@ -24,7 +24,7 @@ export default {
   .info-section {
     border-top: 5px solid black;
     .info-section-man {
-      background: url('../../../public/images/infoSectionMan.png');
+      background: url('../../../public/images/infoSectionMan.jpeg');
       background-size: cover;
       background-repeat: no-repeat;
     }
