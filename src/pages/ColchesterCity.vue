@@ -57,7 +57,7 @@ export default {
 
 <style scoped lang="scss">
 .hero {
-  background-image: url("../../public/images/hero-background.jpg");
+  background-image: url("../../public/images/hero-background.webp");
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 500px;
@@ -67,7 +67,7 @@ export default {
     max-height: 100%;
   }
   .hero-man {
-    background-image: url("../../public/images/header-man.png");
+    background-image: url("../../public/images/header-man.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
