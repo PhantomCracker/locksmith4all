@@ -16,6 +16,7 @@ import ColchesterCity from "@/pages/ColchesterCity";
 import ChesterCity from "@/pages/ChesterCity";
 import ChelmsfordCity from "@/pages/ChelmsfordCity";
 import CambridgeCity from "@/pages/CambridgeCity";
+import PortsmouthCity from "@/pages/PortsmouthCity.vue";
 import CoventryCity from "@/pages/CoventryCity";
 import CroydonCity from "@/pages/CroydonCity";
 import DurhamCity from "@/pages/DurhamCity";
@@ -151,6 +152,11 @@ export  default new Router({
                    path:'/Cambridge',
                    name: 'CambridgeCity',
                    component: CambridgeCity
+               },
+               {
+                   path:'/Portsmouth',
+                   name: 'PortsmouthCity',
+                   component: PortsmouthCity
                },
                {
                    path:'/Coventry',

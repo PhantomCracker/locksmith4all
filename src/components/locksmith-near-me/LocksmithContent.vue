@@ -124,6 +124,7 @@
             <div class="col-12 col-md-3">
               <h2>P</h2>
               <router-link :to="{ name: 'PeterboroughCity' }"><p>Locksmith in Peterborough</p></router-link>
+              <router-link :to="{ name: 'PortsmouthCity' }"><p>Locksmith in Portsmouth</p></router-link>
             </div>
             <div class="col-12 col-md-3">
               <h2>R</h2>
@@ -213,7 +214,8 @@ export default {
         { id: 29, name: "Manchester" },
         { id: 30, name: "Oldham" },
         { id: 31, name: "Liverpool" },
-        { id: 32, name: "Chelmsford" }
+        { id: 32, name: "Chelmsford" },
+        { id: 32, name: "Portsmouth" }
       ]
     }
   }
