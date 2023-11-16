@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "engines": {
-    "node": "20.x"
+    "node": "18.x"
   },
   "dependencies": {
     "@gtm-support/vue2-gtm": "^1.2.1",
