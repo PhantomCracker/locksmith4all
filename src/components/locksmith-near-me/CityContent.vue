@@ -48,7 +48,7 @@ export default {
     max-height: 100%;
   }
   .hero-man {
-    background-image: url("../../../public/images/header-man.webp");
+    background-image: url("../../../public/images/header-man.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
