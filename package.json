@@ -7,6 +7,9 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@gtm-support/vue2-gtm": "^1.2.1",
     "core-js": "^3.18.3",
