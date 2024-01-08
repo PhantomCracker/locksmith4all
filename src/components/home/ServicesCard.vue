@@ -73,22 +73,22 @@ export default {
     transform: scale(1.05);
   }
   .card-1 {
-    background-image: url('../../../public/images/service1.jpg');
+    background-image: url('../../../public/images/service1.webp');
     background-size: cover;
     background-repeat: no-repeat;
   }
   .card-2 {
-    background-image: url('../../../public/images/service2.jpg');
+    background-image: url('../../../public/images/service2.webp');
     background-size: cover;
     background-repeat: no-repeat;
   }
   .card-3 {
-    background-image: url('../../../public/images/service3.jpg');
+    background-image: url('../../../public/images/service3.webp');
     background-size: cover;
     background-repeat: no-repeat;
   }
   .card-4 {
-    background-image: url('../../../public/images/service4.jpg');
+    background-image: url('../../../public/images/service4.webp');
     background-size: cover;
     background-repeat: no-repeat;
   }

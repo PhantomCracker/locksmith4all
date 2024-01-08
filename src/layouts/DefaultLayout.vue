@@ -23,7 +23,7 @@
         <div class="col-12 col-lg-6">
           <div class="navigation pt-3 pb-3">
             <router-link :to="{ path: '/' }" class="navbar-brand">
-              <img src="../assets/logo.png" class="logo" alt="logo">
+              <img src="../assets/logo.webp" class="logo" alt="logo">
             </router-link>
           </div>
         </div>
@@ -49,7 +49,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-6 text-start">
               <div class="pr-xl-4">
-                <a class="brand" href="#"><img class="brand-logo-light" src="@/assets/logo.png" alt="logo"></a>
+                <a class="brand" href="#"><img class="brand-logo-light" src="@/assets/logo.webp" alt="logo"></a>
                 <p>We provide the best quality locksmith services with multiple teams located near you, our services include business locksmith services, emergency locksmith services, 24-hour locksmith services, with us you’ll receive trusted locksmith services in the most urgent of manner.</p>
               </div>
             </div>
