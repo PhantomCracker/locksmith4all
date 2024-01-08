@@ -26,22 +26,22 @@ export default {
   data: () => ({
     slides: [
       {
-        image: require('../../../public/images/testimonials/t1.png')
+        image: require('../../../public/images/testimonials/t1.webp')
       },
       {
-        image: require('../../../public/images/testimonials/t2.png')
+        image: require('../../../public/images/testimonials/t2.webp')
       },
       {
-        image: require('../../../public/images/testimonials/t3.png')
+        image: require('../../../public/images/testimonials/t3.webp')
       },
       {
-        image: require('../../../public/images/testimonials/t4.png')
+        image: require('../../../public/images/testimonials/t4.webp')
       },
       {
-        image: require('../../../public/images/testimonials/t5.png')
+        image: require('../../../public/images/testimonials/t5.webp')
       },
       {
-        image: require('../../../public/images/testimonials/t1.png')
+        image: require('../../../public/images/testimonials/t1.webp')
       },
     ]
   }),
