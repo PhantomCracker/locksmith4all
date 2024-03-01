@@ -27,7 +27,7 @@ export default {
     document.head.appendChild(whatConvertsScript)
   },
   metaInfo: {
-    title: 'Emergency Locksmith Service Near Me | LocalLocksmith4All',
+    title: 'Emergency Locksmith Service Near Me | LocalLocksmith4All!',
     meta: [
       {
         vmid: 'description',
