@@ -23,7 +23,6 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 </template>
 
 <script>
-import HeroContent from "@/components/home/HeroContent";
 import ServiceCard from "@/components/home/ServicesCard";
 import InfoSection from "@/components/home/InfoSection";
 import OurHeroes from "@/components/home/OurHeroes";
@@ -32,7 +31,7 @@ import TestimonialsContent from "@/components/home/TestimonialsContent";
 import BadgesContent from "@/components/home/BadgesContent";
 export default {
   name: "HomePage",
-  components: {BadgesContent, TestimonialsContent, OurServices, OurHeroes, InfoSection, ServiceCard, HeroContent},
+  components: {BadgesContent, TestimonialsContent, OurServices, OurHeroes, InfoSection, ServiceCard},
   mounted() {
     let whatConvertsScript = document.createElement('script')
     whatConvertsScript.setAttribute('src', '//scripts.iconnode.com/95446.js')
